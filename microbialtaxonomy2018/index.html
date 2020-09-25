@@ -1,145 +1,384 @@
-<!DOCTYPE HTML>
-<!--
-  Theory by TEMPLATED
-  templated.co @templatedco
-  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb" class="no-js chrome chrome85 ltr light ">
   <head>
-    <title>Carbon Capture</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="all" href="/core/templates/kimera/css/index.css?v=1557258940" />
+
+      <base href="https://knowinnovation.github.io/groups/microbialtaxonomy2018/index" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>hubki - Group: Microbial Taxonomy Workshop ~ Overview</title>
+  <link rel="stylesheet" href="/core/templates/kimera/html/com_groups/groups.css?v=1557258940" type="text/css" />
+  <link rel="stylesheet" href="/core/plugins/groups/announcements/assets/css/announcements.css?v=1557258940" type="text/css" />
+  <link rel="stylesheet" href="/core/templates/kimera/html/mod_reportproblems/mod_reportproblems.css?v=1557258940" type="text/css" />
+  <link rel="stylesheet" href="/core/plugins/captcha/image/assets/css/image.css?v=1557258940" type="text/css" />
+  <style type="text/css">
+ #outer-wrap { background: transparent url("/core/templates/kimera/img/delauney.svg") 0 0 no-repeat; background-size: 100% auto; } @media (max-width: 1000px) { #outer-wrap { background-size: 1000px auto; background-position: 50% 0; } } a, a:active, a:visited { color: #3896AF; } a.btn, a.btn:active, a.btn:visited { color: #777; border-color: rgba(0,0,0,0.2); } #top { background-color: rgba(56,150,175, 0.75); } #wrap { background-color: rgba(56,150,175, 0.75); } 
+  </style>
+  <script src="/core/assets/js/jquery.js?v=1557258939" type="text/javascript"></script>
+  <script src="/core/assets/js/jquery.ui.js?v=1557258939" type="text/javascript"></script>
+  <script src="/core/assets/js/jquery.fancybox.js?v=1557258939" type="text/javascript"></script>
+  <script src="/core/components/com_groups/site/assets/js/groups.js?v=1557258939" type="text/javascript"></script>
+  <script src="/core/plugins/groups/announcements/assets/js/announcements.js?v=1557258940" type="text/javascript"></script>
+  <script src="/core/templates/kimera/js/hub.js?v=1557258940" type="text/javascript"></script>
+  <script src="/core/templates/kimera/html/mod_reportproblems/mod_reportproblems.js?v=1557258940" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(document).ready(function(jq) { HUB.Modules.ReportProblems.initialize("#tab"); });
+  </script>
+
+    <!--[if IE 9]>
+      <link rel="stylesheet" type="text/css" media="screen" href="/core/templates/kimera/css/browser/ie9.css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="/core/templates/kimera/js/html5.js"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="/core/templates/kimera/css/browser/ie8.css" />
+    <![endif]-->
   </head>
   <body>
+    <div id="outer-wrap">
+      <div id="help-pane">
+  <div id="help-container" class="grid">
+    <h1>Support</h1>
 
-    <!-- Header -->
-      <header id="header">
-        <div class="inner">
-          <!--<a href="index.html" class="logo">Home</a>-->
-          <nav id="nav">
-            <!--<a href="contact.html">Contact</a>-->
-          </nav>
-          <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-        </div>
-      </header>
+    <div class="col span4">
+      <h2>Support Options</h2>
+      <ul>
+        <li class="help-kb">
+          <h3><a href="/kb/">Knowledge Base</a></h3>
+          <p>Find information on common issues.</p>
+        </li>
+        <li class="help-qa">
+          <h3><a href="/answers/">Ask the Community</a></h3>
+          <p>Ask questions and find answers from other users.</p>
+        </li>
+        <li class="help-wish">
+          <h3><a href="/wishlist/">Wish List</a></h3>
+          <p>Suggest a new site feature or improvement.</p>
+        </li>
+        <li class="help-tickets">
+          <h3><a href="/support/tickets">Support Tickets</a></h3>
+          <p>Check on status of your tickets.</p>
+        </li>
+      </ul>
+    </div><!-- / .col span4 -->
+    <div class="col span8 omega">
+      <h2>
+        Report a problem      </h2>
+      <form method="post" action="/support/save" id="troublereport" enctype="multipart/form-data">
+        <fieldset class="reporter">
+          <legend>About you</legend>
 
-    <!-- Banner -->
-      <section id="banner">
-        <h1>Atmospheric carbon reduction: exploring solutions through innovative approaches - an NSF-funded Convergence Accelerator Workshop?</h1>
-        <a style='border-radius:.2em;' class='button special' href="https://docs.google.com/forms/d/e/1FAIpQLSeRZjBAeqscjOZ0TV6yJlevQL8CEVyvSBvXnT9E24BIruVMhA/viewform" target="_blank">Apply Now&nbsp;»</a>
-      </section>
+          <label for="trLogin">
+            Username: <span class="optional">optional</span>
+                          <input type="text" name="reporter[login]" id="trLogin" value="" />
+                      </label>
 
-    <!-- One -->
-      <section id="one" class="wrapper">
-        <div class="inner">
-          <article>
-            <h2>New Applications of Atmospheric carbon reduction: 2020 Virtual Jumpstart</h2>
-            <h3>A Jumpstart to Expand Capacity to Address Important Questions and Identify Outcomes for Reducing Atmospheric Carbon</h3>
+          <label for="trName">
+            Name: <span class="required">required</span>
+                          <input type="text" name="reporter[name]" id="trName" value="" />
+                      </label>
 
-            <h4>Join a 3-day workshop to develop novel cross-disciplinary collaborations!</h4>
-            <p><strong>Applications are due August 31st 2020 (5pm Eastern Time). Apply Today!</strong></p>
-            <h3>Overview</h3>
-            <p>Add a few sentences about the main overview. </p>
-            <h3>Date and Location</h3>
-            <p><strong>The event will be held online from 12:00- 3:00 PM EST, and will take place on September 28th, October 1st and October 6th</strong></p>
-            <p>Applicants must commit to participating for the entire duration of the Jumpstart if selected as a meeting participant.</p>
-            <p>There will also be some required prework and light background reading/viewing.</p>
-            <h3>The Challenge</h3>
-            <p>put some text in here about the big challenge </p>
-            <p> Additional paragraph if you want/need it</p>
-            <h3>Who Should Apply</h3>
-            <p>We encourage a wide representation of participation spanning research, government, industry and public policy sectors. All levels of seniority with diverse expertise across the continuum of carbon capture research and complementary fields including, but not limited to: engineering, systems biology, chemistry, materials science, physics, computational sciences, data science, mathematics, and geology to consider how your experience could help shape and transform the future of carbon sustainability research technologies.</p>
-            <p>Irrespective of expertise, we are most interested in new, innovative ideas and original thinking that arise from new collaborations between people of diverse backgrounds and varying expertise.</p>
-            <p>Approximately 100 applicants will be selected to participate in the Jumpstart on the basis of the interests, expertise, and other characteristics solicited in the application. Most participants are expected to be academic faculty, from early career to senior investigators. Original thinkers from outside academia (e.g., industry, public sector) or earlier career stages are also encouraged to apply. When selecting participants, consideration will be given to balance across a range of diverse disciplinary experience and expertise. All participants should be willing to engage in frank disclosure and assessment of ideas in a collegial and professional fashion. To facilitate open sharing, all meeting discussions will be considered a private communication and not to be shared outside of the meeting, unless approved by the contributor. All research-related application information will be kept confidential.</p>
-            <h3>The Opportunity</h3>
-            <p>text for the opportunity :</p>
-            <ul>
-              <li>bullet 1</li>
-              <li>bullet 2</li>
-              <li>bullet 3</li>
-              <li>bullet 4</li>
-              <li>bullet 5 </li>
-            </ul>
-            <p>The Jumpstart will facilitate collaborations between xx,yy, zz. This should lead to insert sentence.</p>
-            <h3>Meeting Outcomes</h3>
-            <p>One sentence description of the primary meeting outcome</p>
-            <h3>Why and How to Apply</h3>
-            <p>insert a few sentences about why they want to attend.</p>
-            <p><strong>Application Deadline: August 31st 2020 (5pm Eastern Time)</strong></p>
-            <p>If you have questions or need additional information, please email our organizing team at <a href="mailto:organizers@gmail.com">organizers@gmail.com</a>.</p>
-            <a class='button special' href="https://docs.google.com/forms/d/e/1FAIpQLSeRZjBAeqscjOZ0TV6yJlevQL8CEVyvSBvXnT9E24BIruVMhA/viewform" target="_blank">Apply Now&nbsp;»</a>
-          </article>
-        </div>
-      </section>
+          <label for="trEmail">
+            E-mail: <span class="required">required</span>
+                          <input type="email" name="reporter[email]" id="trEmail" value="" />
+                      </label>
 
-      <!-- Two
-      <section id="two" class="wrapper style1 special">
-        <div class="inner">
-          <header>
-            <h2>Join Our Virtual Micro Labs</h2>
-          </header>
-          <div class="flex flex-4">
-            <div class="box person">
-              <div class="image round">
-                <img src="images/pic03.jpg" alt="Image 1" />
-              </div>
-              <h3>Micro Lab 1</h3>
-              <p>Description...</p>
-              <a class="button alt" href="">Register&nbsp;»</a>
-            </div>
-            <div class="box person">
-              <div class="image round">
-                <img src="images/pic04.jpg" alt="Image 2" />
-              </div>
-              <h3>Micro Lab 2</h3>
-              <p>Description...</p>
-              <a class="button alt" href="">Register&nbsp;»</a>
-            </div>
-            <div class="box person">
-              <div class="image round">
-                <img src="images/pic05.jpg" alt="Image 3" />
-              </div>
-              <h3>Micro Lab 3</h3>
-              <p>Description...</p>
-              <a class="button alt" href="">Register&nbsp;»</a>
-            </div>
-            <div class="box person">
-              <div class="image round">
-                <img src="images/pic06.jpg" alt="Image 4" />
-              </div>
-              <h3>Micro Lab 4</h3>
-              <p>Description...</p>
-              <a class="button alt" href="">Register&nbsp;»</a>
+          
+<div class="captcha-block">
+  <div class="grid">
+    <div class="col span8">
+      <div class="form-group">
+        <label for="imgCatchaTxt0">
+          Please enter the following characters you see into the textbox below.         <input type="text" class="form-control" name="imgCatchaTxt" id="imgCatchaTxt0" />
+        </label>
+      </div>
+
+      <input type="hidden" name="imgCatchaTxtInst" id="imgCatchaTxtInst" value="0" />
+    </div>
+    <div class="col span4 omega">
+      <div class="captcha-wrap">
+        <img id="captchaCode0" src="https://hub.ki/groups/microbialtaxonomy2018/overview?showCaptcha=True&amp;instanceNo=0" alt="This is a randomly generated image of letters and numbers." />
+
+        <script type="text/javascript">
+          //<![CDATA[
+          function reloadCapthcha0(instanceNo)
+          {
+            var captchaSrc = "https://hub.ki/groups/microbialtaxonomy2018/overview?showCaptcha=True&instanceNo="+instanceNo+"&time="+ new Date().getTime();
+            document.getElementById('captchaCode'+instanceNo).src = captchaSrc;
+          }
+          //]]>
+        </script>
+
+        <a class="tooltips" href="#" onclick="reloadCapthcha0(0);return false;" title="Letters not clear? Click to renew CAPTCHA.">Letters not clear? Click to renew CAPTCHA.</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <label id="trBotcheck-label" for="trBotcheck">
+            Please leave this field blank. <span class="required">required</span>
+            <input type="text" name="botcheck" id="trBotcheck" value="" />
+          </label>
+        </fieldset>
+        <fieldset class="reporting">
+          <legend>About the problem</legend>
+
+          <label for="trProblem">
+            Problem: <span class="required">required</span>
+            <textarea name="problem[long]" id="trProblem" rows="10" cols="40"></textarea>
+          </label>
+
+          <label for="trUpload">
+            Attach a screenshot: <span class="optional">optional</span>
+            <input type="file" name="upload[]" id="trUpload" multiple="multiple" data-allowed=".bmp,.csv,.doc,.epg,.gif,.ico,.ipa,.jpg,.odg,.odp,.ods,.odt,.pdf,.png,.ppt,.swf,.txt,.xcf,.xls,.BMP,.CSV,.DOC,.EPG,.GIF,.ICO,.JPG,.ODG,.ODP,.ODS,.ODT,.PDF,.PNG,.PPT,.SWF,.TXT,.XCF,.XLS,.gltf,.glb" />
+            <span class="filetypes">(.bmp, .csv, .doc, .epg, .gif, .ico, .ipa, .jpg, .odg, .odp, .ods, .odt, .pdf, .png, .ppt, .swf, .txt, .xcf, .xls, .BMP, .CSV, .DOC, .EPG, .GIF, .ICO, .JPG, .ODG, .ODP, .ODS, .ODT, .PDF, .PNG, .PPT, .SWF, .TXT, .XCF, .XLS, .gltf, .glb)</span>
+          </label>
+
+          <input type="hidden" name="problem[topic]" value="???" />
+          <input type="hidden" name="problem[short]" value="" />
+          <input type="hidden" name="problem[referer]" value="L2dyb3Vwcy9taWNyb2JpYWx0YXhvbm9teTIwMTgvb3ZlcnZpZXc=" />
+          <input type="hidden" name="problem[tool]" value="" />
+          <input type="hidden" name="problem[os]" value="Mac OS" />
+          <input type="hidden" name="problem[browser]" value="chrome" />
+          <input type="hidden" name="verified" value="0" />
+          <input type="hidden" name="reporter[org]" value="" />
+          <input type="hidden" name="option" value="com_support" />
+          <input type="hidden" name="controller" value="tickets" />
+          <input type="hidden" name="task" value="save" />
+          <input type="hidden" name="no_html" value="1" />
+
+          <input type="hidden" name="eb012465bcf567cf6c65e5a51d2f1c16" value="1" />
+        </fieldset>
+        <div class="submit"><input type="submit" id="send-form" value="Submit" /></div>
+      </form>
+      <div id="trSending">
+        <!-- Loading animation container -->
+        <div class="rp-loading">
+          <!-- We make this div spin -->
+          <div class="rp-spinner">
+            <!-- Mask of the quarter of circle -->
+            <div class="rp-mask">
+              <!-- Inner masked circle -->
+              <div class="rp-masked-circle"></div>
             </div>
           </div>
         </div>
-      </section> -->
+      </div>
+      <div id="trSuccess">
+      </div>
+    </div><!-- / .col span8 omega -->
+  </div><!-- / #help-container -->
+</div><!-- / #help-pane -->
 
-    <!-- Footer -->
-      <footer id="footer">
-        <div class="inner">
-          <div class="flex">
-            <div class="copyright">
-              &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
-            </div>
-            <!--<ul class="icons">
-              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
-              <li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
-              <li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
-            </ul>-->
-          </div>
-        </div>
-      </footer>
 
-    <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <script src="assets/js/main.js"></script>
-      <script src="assets/js/show-full-bio.js"></script>
+      <div id="top">
+        <div id="splash">
+          <div class="inner-wrap">
 
+            <header id="masthead">
+              
+
+              <h1>
+                <a href="https://hub.ki/" title="hubki">
+                  <span>hubki</span>
+                </a>
+              </h1>
+
+              <nav id="account" class="account-navigation">
+                <ul>
+                  <li>
+                    <a class="icon-search" href="/search/" title="Search">Search</a>
+                    <form action="/search/" method="get" id="searchform" class="searchform">
+  <fieldset>
+    <legend>Search</legend>
+
+    <label for="searchword" class="searchword-label" id="searchword-label">Search...</label><input type="text" name="terms" class="searchword" id="searchword" size="20" placeholder="Search" />  </fieldset>
+</form>
+
+                  </li>
+                                  <li class="user-account loggedout">
+                    <a class="icon-login" href="/" title="Login">Login</a>
+                  </li>
+                                                  </ul>
+              </nav>
+
+              <nav id="nav" class="main-navigation" aria-label="Main menu">
+                
+<ul class="menu">
+  <li class="item-7 deeper parent"><a href="/about" >About</a><ul><li class="item-65"><a href="/about/contact" >Contact Us</a></li><li class="item-66"><a href="/about/terms" >Terms of Use</a></li><li class="item-67"><a href="/about/copyright" >Copyright Infringement</a></li><li class="item-68"><a href="/about/hubzero" >Our Cyberinfrastructure</a></li></ul></li><li class="item-8"><a href="/support-page" >Support</a></li></ul>
+
+              </nav>
+            </header>
+
+            <div id="sub-masthead">
+                              <p id="tab">
+                  <a href="/support/" title="Need help? Send a trouble report to our support team.">
+                    <span>Help!</span>
+                  </a>
+                </p>
+              
+              <div id="trail">
+                                  <span class="breadcrumbs_menu pathway_menu" aria-label="Breadcrumbs">
+  <span class="showHere">You are here: </span><a href="/" class="pathway">Home</a> <span class="sep">&rsaquo;</span> <a href="/groups" class="pathway">Groups</a> <span class="sep">&rsaquo;</span> <a href="/groups/microbialtaxonomy2018" class="pathway">Microbial Taxonomy Workshop</a> <span class="sep">&rsaquo;</span> <span aria-current="page">Overview</span></span>
+
+                              </div>
+            </div><!-- / #sub-masthead -->
+
+            <div class="inner">
+              <div class="wrap">
+                                  <div id="system-message-container">
+</div>
+                                
+              </div>
+            </div><!-- / .inner -->
+
+          </div><!-- / .inner-wrap -->
+        </div><!-- / #splash -->
+      </div><!-- / #top -->
+
+      <div id="wrap">
+        <main id="content" class="com_groups">
+          <div class="inner">
+          
+                    
+                <!-- start component output -->
+                
+  <header id="content-header">
+    <h2>Microbial Taxonomy Workshop</h2>
+
+    <dl>
+      <dt>Discoverability</dt>
+      <dd>Visible</dd>
+      <dt>Join Policy</dt>
+      <dd>Restricted</dd>
+              <dt>Created</dt>
+        <dd>01 Jul 2018</dd>
+          </dl>
+  </header>
+
+  
+  <div class="innerwrap">
+    <div id="page_container">
+      <div id="page_sidebar">
+        <div id="page_identity">
+          <a href="/groups/microbialtaxonomy2018" title="Microbial Taxonomy Workshop Home">
+            <img src="/app/site/groups/1267/uploads/microbial-logo.png" alt="Microbial Taxonomy Workshop Logo" />
+          </a>
+        </div><!-- /#page_identity -->
+
+        
+<ul id="group_options">
+      <li>
+      <a class="login btn" href="/?return=aHR0cHM6Ly9odWIua2kvZ3JvdXBzL21pY3JvYmlhbHRheG9ub215MjAxOC9vdmVydmlldw==">Login</a>
+    </li>
+  </ul>
+
+<ul id="page_menu">
+      <li class="active group-overview-tab"><a class="overview" data-icon="&#xf009;" title="Microbial Taxonomy Workshop's Overview Page" href="/groups/microbialtaxonomy2018/overview">Overview</a><ul><li class=""><a class="page" title="Online seminars" href="/groups/microbialtaxonomy2018/seminar_schedule">Online seminars</a></li><li class=""><a class="page" title="Background Reading" href="/groups/microbialtaxonomy2018/background_reading">Background Reading</a></li><li class=""><a class="page" title="Hood River Meeting" href="/groups/microbialtaxonomy2018/hood_river_meeting">Hood River Meeting</a></li><li class=""><a class="page" title="Documents" href="/groups/microbialtaxonomy2018/documents">Documents</a></li><li class=""><a class="page" title="Walnut Creek Meeting" href="/groups/microbialtaxonomy2018/walnut_creek_meeting">Walnut Creek Meeting</a></li></ul>      <li class=" group-collections-tab hasmeta"><a class="collections"  data-icon="&#xf005;" title="Microbial Taxonomy Workshop's Collections Page" href="/groups/microbialtaxonomy2018/collections">Collections</a><span class="meta"><span class="count">2</span></span></li>      <li class=" group-members-tab hasmeta"><a class="members"  data-icon="&#xf007;" title="Microbial Taxonomy Workshop's Members Page" href="/groups/microbialtaxonomy2018/members">Members</a><span class="meta"><span class="count">39</span></span></li>                                                       <li class=" group-announcements-tab "><a class="announcements"  data-icon="&#xf095;" title="Microbial Taxonomy Workshop's Announcements Page" href="/groups/microbialtaxonomy2018/announcements">Announcements</a><span class="meta"></span></li>                 <li class="protected members-only group-activity-tab" title="This page is restricted to group members only!"><span data-icon="&#xf056" class="disabled activity">Activity</span></li> </ul>     </div><!-- /#page_sidebar -->
+
+      <div id="page_main">
+                <div id="page_header">
+          <h3>
+            Overview          </h3>
+
+          <ol class="tags">
+<li><a class="tag" href="/tags/lifesciences">Life Sciences</a></li>
+<li><a class="tag" href="/tags/microbiology">Microbiology</a></li></ol>
+        </div><!-- /#page_header -->
+      
+        
+        <div id="page_content" class="group_overview">
+
+          
+<div class="group-page page-overview">
+
+  
+  <div class="grid">
+
+
+
+
+<div class="col span6">
+
+
+<h3>Welcome to Microbial Systematics for the Next Decade</h3>
+
+<p>Over half of the phylum-level lineages of <em>Bacteria</em> and <em>Archaea</em> have never been cultivated in the laboratory. Single-cell genomics, metagenomics, and microbial ecology studies are providing ever-increasing insight into the biology of these organisms. However, uncultivated microorganisms are not recognized by the <em>International Code of Nomenclature of Prokaryotes</em>. We propose to conduct three meetings over the course of 18 months to convene a group of world experts on the systematics and genomics of <em>Bacteria</em> and <em>Archaea</em> along with experts on the systematics of eukaryotes to discuss the status of uncultivated <em>Bacteria</em> and <em>Archaea</em> in systematics. The workshops will focus on (1) discussing several existing proposals with the goal to determine whether a single classification for cultivated and uncultivated prokaryotes can be created; (2) developing, refining, or exploring new frontiers in database development to increase communication between existing databases on new developments in the systematics of uncultured microorganisms; and (3) communicating our thoughts with stakeholders through publication of a roadmap for a unified microbial taxonomy over the next decade. Each workshop will be preceded by 3-4 one-hour seminar/discussions during which we well present key issues affecting the landscape of modern microbial systematics. We hope you will get involved and share your vision on the next decade of microbial systematics</p>
+
+<p>The organizing committee:</p>
+
+<p>Brian Hedlund, Anna-Louise Reysenbach, Phil Hugenholtz, Kostas Konstantinidis, Ramon Rossello-Mora, Antonio Ventosa, Barny Whitman</p>
+
+
+</div><!-- / .col -->
+
+
+
+
+
+
+<h3>Get Involved</h3>
+
+<p>We need your opinions! Here's how to get involved:</p>
+
+<ul><li><strong>Read</strong> - Have a look at the background reading we have posted to educate yourself on some key issues at the interface of microbial taxonomy, ecology, and biodiversity exploration.</li>
+  <li><strong>Participate</strong> - See our seminars page and log in to listen to our presentations and participate in group discussions.</li>
+  <li><strong>Listen</strong> - If you can't join us for a seminar, watch the recordings that will be posted on the seminars page.</li>
+  <li><strong>Comment </strong>- We will share our documents with the wider community for comment in real-time. See below.</li>
+</ul><p><strong>Webinar Thought Questions and Responses</strong> - <a href="https://docs.google.com/document/d/1BuR-AkHsntzshLJY8yeqGc_5HgkfRVAOSwiYbZZpMiU/edit?usp=sharing" rel="nofollow noreferrer" target="_blank" >View and Edit</a></p>
+
+<p><strong>Annotated Outline for Manuscript </strong>- <a href="https://docs.google.com/document/d/1XalM-2xDotH4rEvulE2tpVUVLgztsZFYQ27zLG24CKo/edit?usp=sharing" rel="nofollow noreferrer" target="_blank" >View and Comment</a></p>
+
+<p> </p>
+
+
+</div><!-- / .col -->
+
+
+<h3> </h3>
+  </div>
+
+
+        </div><!-- /#page_content -->
+      </div><!-- /#page_main -->
+      <br class="clear" />
+    </div><!-- /#page_container -->
+  </div><!-- /.innerwrap -->
+
+                <!-- end component output -->
+
+                    
+                    </div><!-- / .inner -->
+        </main>
+
+        <footer id="footer">
+          <div class="custom">
+  <div class="grid cf" id="ancillary">
+<div class="col omega">
+<p>The opinions, findings, and conclusions or recommendations expressed on this site are those of the author(s) and do not necessarily reflect the views of Knowinnovation Inc.</p>
+</div>
+</div>
+
+<div class="inner">
+<ul id="legalese">
+  <li class="policy">Copyright &copy; 2017 Knowinnovation</li>
+  <li>Powered by <a href="http://hubzero.org" rel="external">HUBzero<sup>&reg;</sup></a>, a <a href="http://www.purdue.edu" rel="external" title="Purdue University">Purdue</a> project</li>
+</ul>
+<!-- / footer #legalese --></div>
+</div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63698732-1', 'auto');
+  ga('send', 'pageview');
+</script>
+        </footer>
+      </div><!-- / #wrap -->
+    </div>
+    
   </body>
 </html>
